@@ -1,0 +1,13 @@
+npm init        // make package.json with manually
+npm init -y     # make package.json by default value
+
+
+npm install <dependencies> //   needed install dependencies and they will be use in production + development
+npm install  // this also install dependencies but those in package.json\
+
+npm install <dependencies> --save-dev  // install devdependencis needed while development
+
+npm install <package>  //  in local scope
+npm install -g <package>  //  in global scope
+
+npm install --production //install only dependencies not devdependencis
